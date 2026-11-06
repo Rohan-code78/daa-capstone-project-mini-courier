@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Python tests",
+			"type": "shell",
+			"command": "& 'C:/Program Files/PyManager/python.exe' -m unittest discover -s tests",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		}
+	]
+}
